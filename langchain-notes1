@@ -21,3 +21,20 @@ Then langchain said ki if we made some interface that
   res=model.invoke(“now divide the result by 1.5”)
   print(res.content)
 ```
+this is model's componenet
+now two types of models -- language models and embedding models
+embedding model gives vector from text
+explore doc to explore which each types of models are available in lang chain
+
+## prompts
+- dynmaic and reusable prompts
+  prompt=PromptTemplate.from_template('summarize {topic} in {emotion} tone')
+  print(prompt.format(topic='cricket', length='fun'))
+so now its a generic prompt and we have put kind of placeholders as topic and emotion
+
+
+
+
+
+
+
